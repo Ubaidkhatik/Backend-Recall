@@ -1,0 +1,10 @@
+console.log(typeof document);
+console.log(typeof window);
+console.log(typeof process);
+console.log(process.version);
+console.log(process.platform);
+console.log(process.cwd());
+const os = require("os");
+console.log(os.platform());
+console.log(os.arch());
+console.log(os.totalmem());
