@@ -1,0 +1,14 @@
+Learn Node.js
+Welcome to the Node.js learning resources. Whether you're just getting started or looking to deepen your knowledge, these guides cover everything from the basics to advanced topics.
+
+1. Getting Started — Install Node.js and write your first program
+2. Command Line — Run scripts, use the REPL, and handle I/O
+3. HTTP — Build web servers and work with HTTP
+4. File System — Read, write, and manipulate files
+5. Asynchronous Work — Understand async patterns, promises, and the event loop
+6. Concurrency — Compare child processes, worker threads, and cluster
+7. TypeScript — Use TypeScript with Node.js
+8. Package Management — Publish and manage packages
+9. Diagnostics — Debug performance and memory issues
+10. Testing — Write and run tests with the built-in test runner
+11. Security — Follow security best practices
