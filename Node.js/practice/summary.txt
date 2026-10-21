@@ -1,0 +1,2 @@
+This is the practice of our fs module using async await
+This is our practice codes
