@@ -1,0 +1,17 @@
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "Laptop",
+  "price": 50000
+}
+
+###
+
+### Q25 - PATCH Product
+PATCH http://localhost:3000/products/1
+Content-Type: application/json
+
+{
+  "price": 45000
+}
