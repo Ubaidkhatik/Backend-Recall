@@ -1,0 +1,4 @@
+
+## - Delete Product
+DELETE http://localhost:3000/products/1
+Content-Type: application/json
