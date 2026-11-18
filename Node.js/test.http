@@ -6,9 +6,9 @@ Content-Type: application/json
   "price": 50000
 }
 
-###
+##
 
-### Q25 - PATCH Product
+# Q25 - PATCH Product
 PATCH http://localhost:3000/products/1
 Content-Type: application/json
 
@@ -17,6 +17,38 @@ Content-Type: application/json
 }
 
 
-### - Delete Product
+# - Delete Product
 DELETE http://localhost:3000/products/1
 Content-Type: application/json
+
+
+###    - Both Parameters Provided (200 OK)
+GET http://localhost:3000/products?category=electronics&price=50000
+
+###    - Only Category Provided (400 Bad Request)
+GET http://localhost:3000/products?category=electronics
+
+###    - Only Price Provided (400 Bad Request)
+GET http://localhost:3000/products?price=50000
+
+###    - No Parameters Provided (400 Bad Request)
+GET http://localhost:3000/products
+
+
+### Get Product 101
+GET http://localhost:3000/products/101
+
+### Get Product 205
+GET http://localhost:3000/products/205
+
+### Invalid Route
+GET http://localhost:3000/about
+
+### Q30 - Get User
+GET http://localhost:3000/users/101
+
+### Q30 - Get Product
+GET http://localhost:3000/products/205
+
+### Q30 - Invalid Route
+GET http://localhost:3000/orders/501
